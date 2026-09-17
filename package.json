@@ -36,12 +36,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_NAME/dsh-theme-dishuhai.git"
+    "url": "https://github.com/F-0426/dsh-theme-dishuhai.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_NAME/dsh-theme-dishuhai/issues"
+    "url": "https://github.com/F-0426/dsh-theme-dishuhai/issues"
   },
-  "homepage": "https://github.com/YOUR_NAME/dsh-theme-dishuhai#readme",
+  "homepage": "https://github.com/F-0426/dsh-theme-dishuhai#readme",
   "dsh": {
     "client": {
       "inject": [
