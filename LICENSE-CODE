@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 抵数海项目作者 (dsh-theme-dishuhai contributors)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+NOTE (important, please read):
+
+This MIT license applies to the SOURCE CODE of this project only.
+
+The project as a whole is NON-COMMERCIAL because it contains content derived
+from third-party materials — most importantly the Logo glyphs, which are
+rendered with fonts owned by Hanyi (汉仪字库) and used under the
+"Hanyi Fonts Personal Non-Commercial License".
+
+Therefore:
+  1. Do NOT use this project (including its code combined with its content)
+     for commercial purposes.
+  2. If you reuse the CODE alone (e.g. the contour layer or splash logic),
+     replace all third-party derived content (logo, text) with your own.
+  3. Always keep the attributions in CREDITS.md.
+
+See LICENSE and LICENSE-CONTENT for details.
+---------------------------------------------------------------------------

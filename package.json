@@ -1,0 +1,53 @@
+{
+  "name": "dsh-theme-dishuhai",
+  "version": "1.0.0",
+  "description": "抵数海 (dsh-theme-dishuhai) — 终末地风格的 DeepSeek Harness Web 主题：近黑底 + 信号黄 + 等高线地形纹理 + 「抵数海」启动页。Non-commercial fan theme.",
+  "private": false,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "README.md",
+    "CREDITS.md",
+    "LICENSE",
+    "LICENSE-CODE",
+    "LICENSE-CONTENT"
+  ],
+  "license": "SEE LICENSE IN LICENSE (MIT for code, CC BY-NC 4.0 for content)",
+  "author": "抵数海项目作者 (dsh-theme-dishuhai contributors)",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "theme",
+    "endfield",
+    "contour",
+    "splash",
+    "dishuhai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_NAME/dsh-theme-dishuhai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_NAME/dsh-theme-dishuhai/issues"
+  },
+  "homepage": "https://github.com/YOUR_NAME/dsh-theme-dishuhai#readme",
+  "dsh": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web"
+    }
+  }
+}
