@@ -48,7 +48,23 @@
 
 > 本插件是 **DSH 第三方社区插件**，非深度求索官方产品。
 
-### 方式一：放入 profile 的 node_modules（推荐）
+### 方式一：DSH Desktop「添加插件」（推荐 · 官方安装器）
+
+适用于 **DSH Desktop**（0.2.x）：侧栏 →「插件」→ 右上角「**+ 添加插件**」，填入以下任一项：
+
+```
+# A. 本地目录（把仓库克隆到本地后填路径）
+D:\path\to\dsh-theme-dishuhai
+
+# B. GitHub 仓库地址
+https://github.com/F-0426/dsh-theme-dishuhai
+```
+
+点「安装」→ **完全退出 DSH Desktop 并重新打开** → 主题生效。
+
+> 本插件已按官方插件规范声明（`dsh.bundle.patch` + 自带 `cordis.patch.yml` + `exports` 导出），可被安装器直接解析。
+
+### 方式二：放入 profile 的 node_modules（旧版 CLI 环境）
 
 ```bash
 # 把本仓库克隆/复制到 DSH profile 的 node_modules 下
@@ -56,18 +72,18 @@
 
 # 并在 profile 的 cordis.patch.yml 中注册：
 # - insert:
-#     - id: theme-dishuhai
+#     - id: dishuhai-theme
 #       name: 'dsh-theme-dishuhai'
 ```
 
-### 方式二：作为本地 workspace 包
+### 方式三：作为本地 workspace 包
 
 ```bash
 cd ~/.dsh/profiles/web
 pnpm add file:/path/to/dsh-theme-dishuhai
 ```
 
-**安装后刷新浏览器页面即可生效**（client 插件无需重启 DSH）。
+**方式二/三安装后刷新页面即可生效**（client 插件无需重启；若走方式一请重启应用）。
 
 ---
 
