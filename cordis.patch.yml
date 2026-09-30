@@ -1,0 +1,13 @@
+# 抵数海 (dsh-theme-dishuhai) · 插件自带 patch
+#
+# 作用：声明本插件包要插入 DSH 的模块。
+# 有了这个文件，用户可以直接用「添加插件」安装本包
+# （DSH 会读取 package.json 的 dsh.bundle.patch 指向本文件）。
+#
+# 说明：
+#   · id   = 模块标识（唯一即可）
+#   · name = 包名（本包自身）
+#   · 本插件的视觉逻辑全在 client 侧（lib/client.js），
+#     由 package.json 的 dsh.client.inject 声明注入 ui-theme。
+- id: theme-dishuhai
+  name: 'dsh-theme-dishuhai'

@@ -17,6 +17,7 @@
   "files": [
     "lib",
     "assets",
+    "cordis.patch.yml",
     "README.md",
     "CREDITS.md",
     "LICENSE",
@@ -43,6 +44,9 @@
   },
   "homepage": "https://github.com/F-0426/dsh-theme-dishuhai#readme",
   "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "inject": [
         "@deepseek-ai/dsh-client-ui-theme"
