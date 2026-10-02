@@ -9,7 +9,19 @@
 > | 🌙 **深色** | 终末地工业风（近黑底 · 信号黄 · 直角工业排版 · 等高线地形纹理）| 「抵数海」（黄条进度 · 黄块扫屏转场）|
 > | ☀️ **浅色** | **DeepSeek 官网风**（白蓝配色 · 呼吸网格 · 大圆角）| **粒子鱼**（粒子汇聚 → 实体白鲸 → 眨一眼）|
 
-![splash](./assets/screenshot-splash.png)
+![抵数海 · 双模式对比](./assets/screenshot-compare.png)
+
+### 🚀 启动页
+
+| 🌙 深色「抵数海」 | ☀️ 浅色「粒子鱼」 |
+|---|---|
+| ![抵数海启动页](./assets/screenshot-splash-dark.png) | ![粒子鱼启动页](./assets/screenshot-splash-light.png) |
+
+### 🖥️ 界面
+
+| 🌙 深色 · 终末地工业风 | ☀️ 浅色 · DeepSeek 官网风 |
+|---|---|
+| ![深色界面](./assets/screenshot-dark.png) | ![浅色界面](./assets/screenshot-light.png) |
 
 ---
 
